@@ -5,3 +5,7 @@
 ## Transtition Timing
 
 -Acceleration Curve for transitions --> Swinging back and forth
+
+## Working with Date objects
+
+-Grabbing seconds
