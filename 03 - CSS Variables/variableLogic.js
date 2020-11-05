@@ -1,8 +1,22 @@
 // Grab all of the inputs from the html page
 const inputs = document.querySelectorAll('.controls input');
 
+/* <input
+  id="blur"
+  type="range"
+  name="blur"
+  min="0"
+  max="25"
+  value="10"
+  data-sizing="px"
+/>; */
+
 function handleUpdate() {
-  console.log(this.value);
+  // What is dataset? grabs all the data from this data object
+  // i.e returns {sizing: px} --> delineated as "data-sizing: px"
+  // console.log(this.dataset);
+  const suffix = this.dataset.sizing || '';
+  console.log(suffix);
 }
 
 // For each input, when you see a change, handle that change
