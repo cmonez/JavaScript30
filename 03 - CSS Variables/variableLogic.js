@@ -16,7 +16,14 @@ function handleUpdate() {
   // i.e returns {sizing: px} --> delineated as "data-sizing: px"
   // console.log(this.dataset);
   const suffix = this.dataset.sizing || '';
-  console.log(suffix);
+  const name = this.name; // Notice how each input has a name property ass well
+  console.log(this.name);
+
+  document.documentElement.style.setProperty(
+    `--${this.name}`,
+    this.value + suffix
+  );
+  // console.log(suffix);
 }
 
 // For each input, when you see a change, handle that change
