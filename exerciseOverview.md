@@ -27,3 +27,11 @@
 ## Working with Date objects
 
 -Grabbing seconds, minutes, hours
+
+# Day 3
+
+## CSS Variables
+
+- Using variables that can be changed in multiple places
+
+- -Using dataset to access specific attributes
